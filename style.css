@@ -31,3 +31,15 @@ li.active a:hover{
     background-color: #B2190E;
     color: white;
 }
+
+.container {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.columns img {
+
+    float: left;
+}
