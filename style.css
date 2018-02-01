@@ -66,3 +66,35 @@ form textarea{
   width: 500px;
   height: 200px;
 }
+
+.wrapper{
+
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
+.movieGrid{
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap:10px;
+}
+
+.picture img{
+  width: 100%;
+}
+
+#redstarwars img{
+  height:98%;
+  width:100%;
+}
+
+.reviews{
+
+}
+
+h2{
+
+  margin-top: 0px;
+}
