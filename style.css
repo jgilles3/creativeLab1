@@ -43,3 +43,26 @@ li.active a:hover{
 
     float: left;
 }
+
+select option[disabled]{
+    display: none;
+}
+
+form{
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+
+#review{
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+#select{
+  margin-top: 20px;
+}
+
+form textarea{
+  width: 500px;
+  height: 200px;
+}

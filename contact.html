@@ -21,17 +21,32 @@
 </ul>
 </nav>
 
-<p class="center">Check out the best movies of 2017!!!!!!!!!!!! </p><br>
+<h2>Leave a Review</h2>
 
-<div>
-	<!-- Put images here-->
-</div>
-<div>
+<form action="/my-handling-form-page" method="post">
+    <div>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="user_name">
+    </div>
+    <div id="select">
+        <label for="mail">Movie:</label><br>
+        <select name="movies">
+	  <option value="" disabled selected>Select a movie</option>
+	  <option value="starwars">Star Wars</option>
+	  <option value="starwars">Star Wars</option>
+	  <option value="starwars">Star Wars</option>
+	</select>
+    </div>
+    <div id="review">
+        <label for="msg">Review:</label><br>
+        <textarea id="msg" name="user_message"></textarea>
+    </div>
+    <div>
+	<label for="suggest">Suggest a new movie:</label><br>
+	<input type="text" id="suggest" name="new_suggestion">
+    </div>
 
-</div>
-<div>
-
-</div>
+</form>
 
 <footer>
   <p>Created By: Joseph Gillespie and Jason Cannon</p>
