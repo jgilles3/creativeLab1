@@ -1,5 +1,5 @@
 body{
-  font-size: 30px;
+  font-size: 1.5vw;
 }
 
 nav ul{
@@ -28,11 +28,11 @@ li a:hover {
 }
 
 li.active a:hover{
-    background-color: #B2190E;
+    background-color: #155200;
 }
 
 .active {
-    background-color: #B2190E;
+    background-color: #155200;
     color: white;
 }
 
@@ -45,7 +45,14 @@ li.active a:hover{
 
 .columns img {
 
+    width: 200px;
+    padding: 20px;
     float: left;
+}
+
+.columns {
+
+  padding: 20px;
 }
 
 select option[disabled]{
@@ -55,6 +62,17 @@ select option[disabled]{
 form{
   margin-bottom: 100px;
   margin-top: 50px;
+}
+
+form input{
+
+  width: 500px;
+  font-size: 30px;
+}
+select{
+
+  height: 30px;
+  font-size: 20px;
 }
 
 #review{
@@ -69,6 +87,7 @@ form{
 form textarea{
   width: 500px;
   height: 200px;
+  font-size: 30px;
 }
 
 .wrapper{
@@ -88,16 +107,9 @@ form textarea{
 
 .picture img{
   width: 100%;
-}
-
-#redstarwars img{
-  height:98%;
-  width:100%;
-}
-
-.reviews{
 
 }
+
 
 h2{
 
@@ -106,11 +118,76 @@ h2{
 
 .signature{
   text-align:center;
-  font-size: 20px;
+  font-size: 1vw;
 }
 
 hr{
   color:#aaa;
   border-width: medium;
   border-style:solid;
+}
+
+h2#reviewTitle{
+
+  margin-top: 50px;
+}
+
+h1{
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+.onion{
+  float: left;
+  width:100px;
+}
+
+.hero{
+  width: 70vw;
+  height: 30vw;
+  background-color: hsla(120, 100%, 25%, .3);
+  margin:auto;
+}
+
+#starwars {
+
+  width: 17vw;
+  position: absolute;
+  left: 20vw;
+  top: 25vw;
+}
+
+#rat{
+
+  width: 17vw;
+  position: absolute;
+  left: 40vw;
+  top: 30vw;
+
+}
+
+#bee{
+
+  width: 17vw;
+  position: absolute;
+  left: 60vw;
+  top: 25vw;
+}
+
+#bee:hover{
+  opacity: 0.8;
+}
+
+#rat:hover{
+  opacity: 0.8;
+}
+
+#starwars:hover{
+  opacity: 0.8;
+}
+
+.center{
+
+  text-align: center;
+  padding: 50px;
+
 }
