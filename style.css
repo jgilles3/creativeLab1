@@ -1,3 +1,7 @@
+body{
+  font-size: 30px;
+}
+
 nav ul{
     list-style-type: none;
     margin: 0;
@@ -68,14 +72,15 @@ form textarea{
 }
 
 .wrapper{
-
+  margin-bottom:80px;
   margin-top: 50px;
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
 }
 
 .movieGrid{
-
+  margin-left:20px;
+  margin-right:20px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap:10px;
@@ -97,4 +102,15 @@ form textarea{
 h2{
 
   margin-top: 0px;
+}
+
+.signature{
+  text-align:center;
+  font-size: 20px;
+}
+
+hr{
+  color:#aaa;
+  border-width: medium;
+  border-style:solid;
 }
